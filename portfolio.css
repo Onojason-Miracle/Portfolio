@@ -25,20 +25,15 @@
   width: 1300px;
   margin: auto;
   position: relative;
-
 }
 
-nav{
+nav {
   position: sticky;
   top: 10px;
   z-index: 1;
- 
-  
 }
 
 .nav ul {
-
-
   display: flex;
   gap: 30px;
   padding-top: 8px;
@@ -252,7 +247,7 @@ nav{
   height: 21px;
 }
 
-.mq-db{
+.mq-db {
   border: 1px solid white;
   width: 178px;
   height: 21px;
@@ -374,7 +369,6 @@ nav{
   margin-top: 70px;
   width: 1300px;
   margin: auto;
- 
 }
 
 .icons {
@@ -432,8 +426,6 @@ nav{
 .icons_desc span {
   color: var(--maincolor);
 }
-
-
 
 #projects {
   height: fit-content;
@@ -535,7 +527,7 @@ nav{
   padding-top: 4px;
 }
 
-.footer-icon{
+.footer-icon {
   color: var(--maincolor);
   margin-left: 3px;
   margin-right: 3px;
