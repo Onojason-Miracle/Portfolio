@@ -21,6 +21,8 @@
       rel="stylesheet"
     />
 
+   
+
     <!--fontawesome-->
     <link
       rel="stylesheet"
@@ -30,54 +32,59 @@
 
     <!--my css and js-->
     <link href="portfolio.css" rel="stylesheet" type="text/css" />
+    <link href="mediaQ.css" rel="stylesheet" type="text/css" />
     <script defer src="portfolio.js"></script>
 
     <title>My Website</title>
   </head>
   <body>
-    <div class="wrapper">
+  <div class="wrapper">
+
+
+
+
+
+
+    
       <section class="row g-0" id="navbar">
-        <nav class="navbar nav">
-          <h3 class="navbar-brand">
-            <a href="">BlackGirlMagic</a>
-          </h3>
 
-          <div>
-            <svg
-              class="hamburger"
-              width="24"
-              height="18"
-              viewBox="0 0 24 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z"
-                fill="white"
-              />
-            </svg>
+
+
+        <nav class=" nav  navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <h3 class="navbar-brand">
+              <a href="">BlackGirlMagic</a>
+            </h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+               
+              </ul>
+            </div>
           </div>
-
-          <!-- <div id="date"></div> -->
-          <ul>
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="">About Me</a>
-            </li>
-            <li>
-              <a href="">Skills</a>
-            </li>
-            <li>
-              <a href="">Projects</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
-            </li>
-          </ul>
         </nav>
+
       </section>
+
 
       <section id="landingpage">
         <div class="slider_div">
@@ -92,7 +99,7 @@
               </p>
 
               <p clas="plinks">
-                <a href="" class="btn btn-outline-info">About Me</a>
+                <a href="#About" class="btn btn-outline-info">About Me</a>
               </p>
               <p class="socials-p">
                 <a
@@ -119,6 +126,7 @@
                   <i class="fa-brands fa-twitter fa-2x"></i>
                 </a>
               </p>
+              <a href="" target="_blank" class="btn btn-info"> My Resume</a>
             </div>
           </div>
 
@@ -129,7 +137,7 @@
               </h3>
               <p>First,i solve the problem. Then, i write the code.”</p>
               <p clas="plinks">
-                <a href="" class="btn btn-outline-info">Profile</a>
+                <a href="#skills" class="btn btn-outline-info">Profile</a>
               </p>
               <p class="socials-p">
                 <a
@@ -156,6 +164,7 @@
                   <i class="fa-brands fa-twitter fa-2x"></i>
                 </a>
               </p>
+              <a href="" target="_blank" class="btn btn-info"> My Resume</a>
             </div>
           </div>
 
@@ -166,7 +175,7 @@
               </h3>
               <p>Contact me by clicking the button below</p>
               <p class="plinks">
-                <a href="" class="btn btn-outline-info">Contact</a>
+                <a href="#contact" class="btn btn-outline-info">Contact</a>
               </p>
               <p class="socials-p">
                 <a
@@ -193,6 +202,7 @@
                   <i class="fa-brands fa-twitter fa-2x"></i>
                 </a>
               </p>
+              <a href="" target="_blank" class="btn btn-info"> My Resume</a>
             </div>
           </div>
         </div>
@@ -216,7 +226,7 @@
         <div class="about_content">
           <div class="about_content_img">
             <img
-              src="https://res.cloudinary.com/blackgirlmagic/image/upload/v1669129884/website/purple_lc7osy.jpg"
+              src="https://res.cloudinary.com/blackgirlmagic/image/upload/v1673260750/website/5190435-removebg-preview_bvmca9.png"
               alt="picture of a girl"
             />
           </div>
@@ -254,101 +264,198 @@
             <div class="border_div"></div>
           </div>
 
-          <div class="skills_icons">
-            <div class="skills-icon-div">
-               
-                <i class="fa-brands fa-html5 fa"></i>
+          <div class="skills">
+
+            <div class="skills-svg">
+              <svg width="349" height="283" viewBox="0 0 349 283" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="2" cy="40" r="2" fill="#FFF"/>
+                <circle cx="16.75" cy="40" r="2" fill="#FFF"/>
+                <circle cx="31.5" cy="40" r="2" fill="#FFF"/>
+                <circle cx="46.25" cy="40" r="2" fill="#FFF"/>
+                <circle cx="61" cy="40" r="2" fill="#FFF"/>
+                <circle cx="2" cy="54.75" r="2" fill="#FFF"/>
+                <circle cx="16.75" cy="54.75" r="2" fill="#ABB2BF"/>
+                <circle cx="31.5" cy="54.75" r="2" fill="#FFF"/>
+                <circle cx="46.25" cy="54.75" r="2" fill="#ABB2BF"/>
+                <circle cx="61" cy="54.75" r="2" fill="#FFF"/>
+                <circle cx="2" cy="69.5" r="2" fill="#FFF"/>
+                <circle cx="16.75" cy="69.5" r="2" fill="#FFF"/>
+                <circle cx="31.5" cy="69.5" r="2" fill="#FFF"/>
+                <circle cx="46.25" cy="69.5" r="2" fill="#FFF"/>
+                <circle cx="61" cy="69.5" r="2" fill="#FFF"/>
+                <circle cx="2" cy="84.25" r="2" fill="#FFF"/>
+                <circle cx="16.75" cy="84.25" r="2" fill="#ABB2BF"/>
+                <circle cx="31.5" cy="84.25" r="2" fill="#FFF"/>
+                <circle cx="46.25" cy="84.25" r="2" fill="#FFF"/>
+                <circle cx="61" cy="84.25" r="2" fill="#FFF"/>
+                <circle cx="2" cy="99" r="2" fill="#FFF"/>
+                <circle cx="16.75" cy="99" r="2" fill="#FFF"/>
+                <circle cx="31.5" cy="99" r="2" fill="#FFF"/>
+                <circle cx="46.25" cy="99" r="2" fill="#FFF"/>
+                <circle cx="61" cy="99" r="2" fill="#FFF"/>
+                <circle cx="179" cy="145" r="2" fill="#FFF"/>
+                <circle cx="193.75" cy="145" r="2" fill="#FFF"/>
+                <circle cx="208.5" cy="145" r="2" fill="#FFF"/>
+                <circle cx="223.25" cy="145" r="2" fill="#FFF"/>
+                <circle cx="238" cy="145" r="2" fill="#FFF"/>
+                <circle cx="179" cy="159.75" r="2" fill="#FFF"/>
+                <circle cx="193.75" cy="159.75" r="2" fill="#FFF"/>
+                <circle cx="208.5" cy="159.75" r="2" fill="#FFF"/>
+                <circle cx="223.25" cy="159.75" r="2" fill="#FFF"/>
+                <circle cx="238" cy="159.75" r="2" fill="#FFF"/>
+                <circle cx="179" cy="174.5" r="2" fill="#FFF"/>
+                <circle cx="193.75" cy="174.5" r="2" fill="#FFF"/>
+                <circle cx="208.5" cy="174.5" r="2" fill="#FFF"/>
+                <circle cx="223.25" cy="174.5" r="2" fill="#FFF"/>
+                <circle cx="238" cy="174.5" r="2" fill="#FFF"/>
+                <circle cx="179" cy="189.25" r="2" fill="#FFF"/>
+                <circle cx="193.75" cy="189.25" r="2" fill="#FFF"/>
+                <circle cx="208.5" cy="189.25" r="2" fill="#FFF"/>
+                <circle cx="223.25" cy="189.25" r="2" fill="#FFF"/>
+                <circle cx="238" cy="189.25" r="2" fill="#FFF"/>
+                <circle cx="179" cy="204" r="2" fill="#FFF"/>
+                <circle cx="193.75" cy="204" r="2" fill="#FFF"/>
+                <circle cx="208.5" cy="204" r="2" fill="#FFF"/>
+                <circle cx="223.25" cy="204" r="2" fill="#FFF"/>
+                <circle cx="238" cy="204" r="2" fill="#FFF"/>
+                <rect x="297.5" y="193.5" width="51" height="51" stroke="#FFF"/>
+                <rect x="227.5" y="0.5" width="85" height="85" stroke="#FFF"/>
+                <mask id="path-53-inside-1_29_371" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M71.5 169H99.75H128V197.25V225.5V253.75H99.75H71.5V225.5H99.75V197.25H71.5V169Z"/>
+                </mask>
+                <path d="M71.5 169V168H70.5V169H71.5ZM128 169H129V168H128V169ZM128 253.75V254.75H129V253.75H128ZM71.5 253.75H70.5V254.75H71.5V253.75ZM71.5 225.5V224.5H70.5V225.5H71.5ZM99.75 225.5V226.5H100.75V225.5H99.75ZM99.75 197.25H100.75V196.25H99.75V197.25ZM71.5 197.25H70.5V198.25H71.5V197.25ZM99.75 168H71.5V170H99.75V168ZM128 168H99.75V170H128V168ZM129 197.25V169H127V197.25H129ZM129 225.5V197.25H127V225.5H129ZM129 253.75V225.5H127V253.75H129ZM99.75 254.75H128V252.75H99.75V254.75ZM99.75 252.75H71.5V254.75H99.75V252.75ZM72.5 253.75V225.5H70.5V253.75H72.5ZM71.5 226.5H99.75V224.5H71.5V226.5ZM98.75 197.25V225.5H100.75V197.25H98.75ZM71.5 198.25H99.75V196.25H71.5V198.25ZM70.5 169V197.25H72.5V169H70.5Z" fill="#0dcaf0" mask="url(#path-53-inside-1_29_371)"/>
+                <mask id="path-55-outside-2_29_371" maskUnits="userSpaceOnUse" x="14" y="196.25" width="59" height="87" fill="black">
+                <rect fill="white" x="14" y="196.25" width="59" height="87"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 197.25H43.25H71.5V225.5H43.25V253.75H71.5V282H43.25H15V253.75V225.5V197.25Z"/>
+                </mask>
+                <path d="M15 197.25V196.25H14V197.25H15ZM71.5 197.25H72.5V196.25H71.5V197.25ZM71.5 225.5V226.5H72.5V225.5H71.5ZM43.25 225.5V224.5H42.25V225.5H43.25ZM43.25 253.75H42.25V254.75H43.25V253.75ZM71.5 253.75H72.5V252.75H71.5V253.75ZM71.5 282V283H72.5V282H71.5ZM15 282H14V283H15V282ZM43.25 196.25H15V198.25H43.25V196.25ZM71.5 196.25H43.25V198.25H71.5V196.25ZM72.5 225.5V197.25H70.5V225.5H72.5ZM43.25 226.5H71.5V224.5H43.25V226.5ZM44.25 253.75V225.5H42.25V253.75H44.25ZM43.25 254.75H71.5V252.75H43.25V254.75ZM70.5 253.75V282H72.5V253.75H70.5ZM71.5 281H43.25V283H71.5V281ZM15 283H43.25V281H15V283ZM14 253.75V282H16V253.75H14ZM14 225.5V253.75H16V225.5H14ZM14 197.25V225.5H16V197.25H14Z" fill="#0dcaf0" mask="url(#path-55-outside-2_29_371)"/>
+                </svg>
+                
             </div>
-            <div class="skills-icon-div">
-                <i class="fa-brands fa-css3 fa"></i>
-            </div>
-            <div class="skills-icon-div">
-                <i class="fa-brands fa-bootstrap fa"></i>
-            </div>
-            <div class="skills-icon-div">
-                <i class="fa-brands fa-square-js fa"></i>
-            </div>
-            <div class="skills-icon-div">
-                <i class="fa-brands fa-react fa"></i>
-            </div>
-            <div class="skills-icon-div">
-                <i class="fa-solid fa-database fa"></i>
-            </div>
-            <div class="skills-icon-div">
-                <i class="fa-brands fa-github fa"></i>
-            </div>
-            <div class="skills-icon-div">
-                <i class ="fa-brands fa-php fa php"></i>
-            </div>
-          </div>
 
 
-          <div class="desc">
-            <h4><span>#</span>Unique Features</h4>
-            <div class="border_div"></div>
-          </div>
-          <div class="icons">
-<!--icon1-->
-            <div class="icon1 col-md-3">
-                <div class="core-icon">
-                        
-                    <i class="fa-solid fa-mobile core"></i>
+
+            <div class="skills-box">
+              <div class="languages">
+                <div class="lang-heading">
+                  <h6 class="lang-heading-title">Languages</h6>
                 </div>
-        <!-- text -->
-        <div class="icon_text">
-                <h2 class="mb-3">Responsive</h2>
-                <p>My layouts are fully responsive and  will work perfectly with small devices and big devices </p>
+                <div class="lang-div">
+                  <p>JavaScript</p>
+                </div>
+              </div>
+
+              <div class="db">
+                <div class="database">
+                  <div class="mq-db">
+                    <h6 class="lang-heading-title">Database</h6>
+                  </div>
+                  <div class="db-heading">
+                    <p>Structured Query Language(SQL)</p>
+                  </div>
+                </div>
+                <div class="others">
+                  <div class="mq-db">
+                    <h6 class="lang-heading-title">Library/Others</h6>
+                  </div>
+                  <div class="db-heading">
+                    <p>React JS<br>HTML & CSS<br>Git</p>
+                   
+                  </div>
+                </div>
+              </div>
+
+              <div class="frameworks-div">
+                <div class="tools">
+                  <div class="fm-heading">
+                    <h6 class="lang-heading-title">Tools</h6>
+                  </div>
+                  <div class="tools-heading-div">
+                    <p>VS Code<br>Sublime<br>Notepad ++</p>
+                  </div>
+                </div>
+
+                <div class="frameworks">
+                  <div class="fm-heading">
+                    <h6 class="lang-heading-title">Frameworks</h6>
+                  </div>
+                  <div class="fm-heading-div">
+                    <p>Bootstrap<br>Tailwind CSS<br>tachyons CSS<br>Jquery</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
-        
-            </div>
-<!-- icon 2 -->
-        <div class="col-md-3 icon2">
-            <div class="core-icon">
-            <i class="fa-solid fa-lightbulb core"></i>
-            </div>
-        <!-- text -->
-    <div class="icon_text">
-            <h2 class="mb-3">Dynamic</h2>
-            <p>My designs makes your page come to life. No need to be static anymore </p>
+          </div>
+
+      </section>
+
+      <section id="features">
+              
+        <div class="desc">
+          <h4><span>#</span>Unique Features</h4>
+          <div class="border_div"></div>
         </div>
-    
+        <div class="icons">
+<!--icon1-->
+          <div class="icon1 col-md-3">
+              <div class="core-icon">
+                      
+                  <i class="fa-solid fa-mobile core"></i>
+              </div>
+      <!-- text -->
+      <div class="icon_text">
+              <h2 class="mb-3">Responsive</h2>
+              <p>
+                My layouts are fully responsive they render well on all screen sizes and resolutions while ensuring good usability. it respond to the user's behavior and environment based on screen size, platform and orientation.
+              </p>
+               
+          </div>
+      
+          </div>
+<!-- icon 2 -->
+      <div class="col-md-3 icon2">
+          <div class="core-icon">
+          <i class="fa-solid fa-lightbulb core"></i>
+          </div>
+      <!-- text -->
+  <div class="icon_text">
+          <h2 class="mb-3">Dynamic</h2>
+          <p>
+            My websites are dynamic, it generates pages in real time, responding to dynamic characteristics such as screen size and device type. The structure and content of my web pages are flexible.
+          </p>
+         
+      </div>
+  
 </div>
 <!-- icon 3 -->
-            <div class="icon3">
-                    <div class="core-icon">
-                        <i class="fa-solid fa-thumbs-up core"></i>
-                        </div>
-                    <!-- text -->
-               <div class="icon_text">
-                        <h2 class="mb-3">Intuitive</h2>
-                        <p>My UI/UX is very easy to understand and use and highly intuitive</p>
-                    </div>
-                 </div>
-          <!-- icon 4 -->
-        <div class="col-md-3 icon4">
-          <div class="core-icon">
-                <i class="fa-solid fa-rocket core"></i>
-            </div>
-        <!-- text -->
-   <div class="icon_text">
-            <h2 class="mb-3">Fast</h2>
-            <p>A fast loading page is my top priority, I price a lag free environment </p>
-        </div>
+          <div class="icon3">
+                  <div class="core-icon">
+                      <i class="fa-solid fa-thumbs-up core"></i>
+                      </div>
+                  <!-- text -->
+             <div class="icon_text">
+                      <h2 class="mb-3">Intuitive</h2>
+                      <p>My layout is very easy to understand and use and highly intuitive,  users know exactly what to do. Intuitive design is invisible. my users can focus on a task at hand without stopping, even for a second. the intuitiveness of my layout direct people's attention to tasks that are important.</p>
+                  </div>
+               </div>
+        <!-- icon 4 -->
+      <div class="col-md-3 icon4">
+        <div class="core-icon">
+              <i class="fa-solid fa-rocket core"></i>
+          </div>
+      <!-- text -->
+ <div class="icon_text">
+          <h2 class="mb-3">Fast</h2>
+          <p>A fast loading page is my top priority, I price a lag free environment, my layouts are performance-focused websites </p>
+      </div>
 </div>
 </div>
-
       </section>
 
       <section id="projects">
 
-        <!-- <div class="project-slides">
-          <div class="  project-slides1 fade"></div>
-
-          <div class=" Slides project-slides2 fade"></div>
-
-          <div class=" Slides project-slides3 fade"></div>
-
-        </div> -->
+        
         <div class="desc">
             <h4><span>#</span>Projects</h4>
             <div class="border_div"></div>
@@ -520,9 +627,15 @@
       </section>
 
       <section id="footer">
-            <div class="footer_border_div"></div>
-            <p class="footer-writeup"> &copy blackgirlmagic. All Rights Reserved. Designed by Onojason Miracle</p>
-      </section>
+        <div class="footer_border"></div>
+        <p class="footer-writeup"> &copy BlackGirlMagic<span class="footer-date"></span>. Designed and maintained with <i class="fa-sharp fa-solid fa-heart footer-icon"></i> by Onojason Miracle</p>
+  </section>
+
+     
     </div> 
+   
+
+
+<script  src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
