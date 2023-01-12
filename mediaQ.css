@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   /* begining of navbar */
   #navbar {
     display: flex;
@@ -320,7 +320,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 992px) and (min-width: 601px)  {
   #navbar {
     display: flex;
     align-items: center;
@@ -483,7 +483,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (max-width: 1025px) and (min-width: 993px){
   #navbar {
     display: flex;
     align-items: center;
@@ -558,7 +558,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media only screen and (max-width: 1280px) and (min-width: 1026px){
   #navbar {
     display: flex;
     align-items: center;
