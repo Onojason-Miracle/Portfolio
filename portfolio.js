@@ -5,6 +5,8 @@ const hello = d.getFullYear();
 
 document.querySelector(".footer-date")
 .innerHTML = hello;
+
+
 let mySlides = 0;
 showSlides();
 
