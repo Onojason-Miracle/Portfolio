@@ -86,14 +86,14 @@ nav {
   margin: auto;
   color: var(--primarycolor);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 30px;
   align-items: center;
 }
 
 .slider_div {
   margin-top: 30px;
-  width: 800px;
+  width: 700px;
 }
 
 .slider_div span {
@@ -112,7 +112,7 @@ nav {
   filter: brightness(120%);
   filter: contrast(120%);
   filter: drop-shadow(10px 10px 10px #0dcaf0);
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 .slider2 {
