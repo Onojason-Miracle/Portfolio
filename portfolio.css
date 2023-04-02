@@ -24,11 +24,9 @@
   justify-content: center;
   width: 1300px;
   margin: auto;
-  position: relative;
 }
 
 nav {
-  position: sticky;
   top: 10px;
   z-index: 1;
 }
@@ -370,6 +368,10 @@ nav {
   align-items: flex-start;
   color: var(--primarycolor);
   margin-left: 16px;
+}
+
+.sql {
+  padding-top: 10px;
 }
 
 .database {
