@@ -567,6 +567,21 @@
     width: 17rem;
   }
 
+  .card-test {
+    height: 100px;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .card-anchor {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 20px;
+  }
+
   #contact {
     max-width: 10000px;
     width: 900px;
