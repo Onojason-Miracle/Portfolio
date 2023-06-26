@@ -298,10 +298,23 @@
     color: var(--primarycolor);
     width: 18rem;
     margin-top: 30px;
-    height: 650px;
-   
+    height: 550px;
   }
 
+  .card-anchor {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 10px;
+  }
+
+  .card-details {
+    height: 60px;
+  }
+
+  .card-test {
+    height: 65px;
+  }
 
   /* ending of projects */
 
@@ -495,7 +508,7 @@
     color: var(--primarycolor);
     width: 20rem;
     margin: auto;
-  
+
     /* height: 300px; */
   }
 
@@ -569,10 +582,11 @@
     background-color: var(--bgcolor);
     color: var(--primarycolor);
     width: 17rem;
+    height: 570px;
   }
 
   .card-test {
-    height: 100px;
+    height: 80px;
   }
 
   .card-title {

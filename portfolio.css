@@ -561,7 +561,11 @@ nav {
 }
 
 .card-test {
-  height: 85px;
+  height: 30px;
+}
+
+.card-details {
+  height: 70px;
 }
 
 .LD:hover {
