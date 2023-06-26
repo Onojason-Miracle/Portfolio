@@ -492,6 +492,7 @@
     color: var(--primarycolor);
     width: 20rem;
     margin: auto;
+    height: 650px;
     /* height: 300px; */
   }
 
