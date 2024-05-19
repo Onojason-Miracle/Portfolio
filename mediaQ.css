@@ -1,7 +1,6 @@
 @media (max-width: 600px) {
   body {
-    width: 90%;
-    margin: auto;
+  
     background-color: var(--bgcolor);
     margin-bottom: 10px;
   }
@@ -35,7 +34,7 @@
 
   .desc {
     /* display: flex; */
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -44,7 +43,7 @@
 
   .border_div {
     border-top: 2px solid #0dcaf0;
-    width: 226px;
+    width: 50%
     /* border: 0; */
   }
 
@@ -69,9 +68,9 @@
 
   .image {
     height: 323px;
-    width: 90%;
+    width: 100%;
     margin-top: 10em;
-    text-align: left;
+    
   }
 
   /* end of landing page */
@@ -96,17 +95,19 @@
   }
 
   .about_content_text {
-    width: 85%;
+    width: 95%;
     margin: auto;
     height: fit-content;
+    margin-top: 5%;
+  
   }
 
   .about_content_img img {
-    width: 70%;
+    width: 100%;
     height: 408px;
     object-fit: cover;
     object-position: top;
-    margin-left: 50px;
+    margin-left: 0px;
   }
 
   /* ending of about */
@@ -270,6 +271,10 @@
     flex-direction: column;
   }
 
+  .icon_text p{
+    text-align: center;
+  }
+
   /* ending of unique features */
 
   /* beginning of projects */
@@ -314,6 +319,7 @@
 
   .card-test {
     height: 65px;
+    
   }
 
   /* ending of projects */
@@ -355,7 +361,7 @@
     text-align: center;
     color: var(--primarycolor);
     padding-top: 4px;
-    width: 300px;
+    width: 90%;
     margin: auto;
   }
 }
