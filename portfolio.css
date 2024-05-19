@@ -301,6 +301,10 @@ nav {
   height: 316px;
 }
 
+.about_content_text span{
+  color: var(--maincolor);
+}
+
 .about_content_img img {
   width: 100%;
   height: 408px;
