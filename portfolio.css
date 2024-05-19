@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1300px;
+  width: 90%;
   margin: auto;
 }
 
@@ -86,12 +86,12 @@ nav {
   height: 423px;
   max-width: 10000px;
 
-  width: 1300px;
+  width: 90%;
   margin: auto;
   color: var(--primarycolor);
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
+  margin-top: 6%;
   align-items: center;
 }
 
@@ -261,9 +261,9 @@ nav {
 #About {
   height: fit-content;
   max-width: 10000px;
-  width: 1300px;
+  width: 90%;
   margin: auto;
-  padding-top: 100px;
+  margin-top: 9%;
 }
 
 .desc {
@@ -298,15 +298,18 @@ nav {
 
 .about_content_text {
   width: 50%;
-  height: 316px;
+  height: 408px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.about_content_text span{
+.about_content_text span {
   color: var(--maincolor);
 }
 
 .about_content_img img {
-  width: 100%;
+  width: 500px;
   height: 408px;
   object-fit: cover;
   object-position: top;
@@ -315,9 +318,10 @@ nav {
 #skills {
   height: fit-content;
   max-width: 10000px;
-  width: 1300px;
+  width: 90%;
   margin: auto;
-  padding-top: 100px;
+  margin-top: 6%;
+  margin-bottom: 5%;
 }
 
 .skills {
@@ -470,14 +474,27 @@ nav {
 }
 
 #features {
-  margin-top: 70px;
-  width: 1300px;
+  margin-top: 6%;
+  width: 90%;
   margin: auto;
 }
 
 .icons {
   display: flex;
   margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  width: 20%;
+  height: 350px;
+  margin: auto;
 }
 
 .core {
@@ -510,9 +527,9 @@ nav {
 
 .icon_text {
   color: var(--primarycolor);
-  text-align: left;
-  width: 80%;
-  margin: auto;
+  /* text-align: left;
+  width: 90%;
+  margin: auto; */
 }
 
 .icon_text h2 {
@@ -534,17 +551,17 @@ nav {
 #projects {
   height: fit-content;
   max-width: 10000px;
-  width: 1300px;
+  width: 90%;
   margin: auto;
-  padding-top: 50px;
+  margin-top: 2%;
 }
 
 .project-section {
-  padding-top: 40px;
+  margin-top: 20%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  width: 1000px;
+  gap: 8%;
+  width: 90%;
   margin: auto;
 }
 
@@ -554,6 +571,7 @@ nav {
   color: var(--primarycolor);
   width: 20rem;
   height: 550px;
+  margin-top: 20%;
 }
 
 .card-body {
@@ -702,6 +720,6 @@ nav {
   margin-left: 5px;
 }
 
-.footer-span{
+.footer-span {
   color: var(--maincolor);
 }

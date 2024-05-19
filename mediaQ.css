@@ -1,6 +1,5 @@
 @media (max-width: 600px) {
   body {
-  
     background-color: var(--bgcolor);
     margin-bottom: 10px;
   }
@@ -43,7 +42,7 @@
 
   .border_div {
     border-top: 2px solid #0dcaf0;
-    width: 50%
+    width: 50%;
     /* border: 0; */
   }
 
@@ -70,7 +69,6 @@
     height: 323px;
     width: 100%;
     margin-top: 10em;
-    
   }
 
   /* end of landing page */
@@ -99,7 +97,6 @@
     margin: auto;
     height: fit-content;
     margin-top: 5%;
-  
   }
 
   .about_content_img img {
@@ -271,8 +268,17 @@
     flex-direction: column;
   }
 
-  .icon_text p{
+  .icon_text p {
     text-align: center;
+  }
+
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4 {
+    width: 100%;
+    height: 280px;
+    margin: auto;
   }
 
   /* ending of unique features */
@@ -319,7 +325,6 @@
 
   .card-test {
     height: 65px;
-    
   }
 
   /* ending of projects */
@@ -391,22 +396,21 @@
   #landingpage {
     height: 423px;
     max-width: 10000px;
-
-    width: 700px;
+    width: 90%;
     margin: auto;
     color: var(--primarycolor);
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    margin-top: 3%;
     align-items: center;
   }
 
   #About {
     height: fit-content;
     max-width: 10000px;
-    width: 700px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 15%;
   }
 
   .about_content {
@@ -419,16 +423,25 @@
   }
 
   .about_content_text {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 316px;
+    margin-top: 10%;
+  }
+
+  .about_content_img img {
+    width: 630px;
+    height: 508px;
+    object-fit: cover;
+    object-position: top;
   }
 
   #skills {
     height: fit-content;
     max-width: 10000px;
-    width: 700px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 15%;
   }
 
   .skills {
@@ -449,7 +462,7 @@
 
   #features {
     margin-top: 70px;
-    width: 700px;
+    width: 90%;
     margin: auto;
   }
 
@@ -481,9 +494,34 @@
   .icon_text {
     color: var(--primarycolor);
     text-align: center;
-    width: 700px;
+    width: 90%;
     margin: auto;
     padding-bottom: 40px;
+  }
+
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4 {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+  }
+
+  .core {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .core-icon {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: var(--primarycolor);
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
   }
 
   .icon_text h2 {
@@ -500,12 +538,11 @@
   }
 
   .project-section {
-    padding-top: 40px;
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    width: 700px;
-    margin: auto;
+    gap: 6%;
+    width: 100%;
   }
 
   .card {
@@ -514,19 +551,19 @@
     color: var(--primarycolor);
     width: 20rem;
     margin: auto;
+    margin-bottom: 20%;
 
     /* height: 300px; */
   }
 
   #contact {
     max-width: 10000px;
-    width: 700px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
   }
 
   .contact-div {
-    width: 700px;
+    width: 100%;
     margin: auto;
   }
 }
@@ -536,7 +573,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 900px;
+    width: 90%;
     margin: auto;
     position: relative;
   }
@@ -544,43 +581,68 @@
   #landingpage {
     height: 423px;
     max-width: 10000px;
-    width: 900px;
+    width: 90%;
     margin: auto;
     color: var(--primarycolor);
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    margin-top: 5%;
     align-items: center;
   }
 
   #About {
     height: fit-content;
     max-width: 10000px;
-    width: 900px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 15%;
+  }
+
+  .about_content_img img {
+    width: 100%;
+    height: 408px;
+    object-fit: cover;
+    object-position: top;
   }
 
   #skills {
-    height: fit-content;
     max-width: 10000px;
-    width: 900px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 10%;
+    margin-bottom: 8%;
   }
 
   #features {
-    margin-top: 70px;
-    width: 900px;
+    margin-top: 150%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7%;
+  }
+
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4 {
+    width: 20%;
+    height: 350px;
     margin: auto;
   }
 
   #projects {
     height: fit-content;
     max-width: 10000px;
-    width: 900px;
+    width: 90%;
     margin: auto;
-    padding-top: 50px;
+    margin-top: 10;
+  }
+
+  .project-section {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    width: 100%;
   }
 
   .card {
@@ -589,6 +651,7 @@
     color: var(--primarycolor);
     width: 17rem;
     height: 570px;
+    margin-bottom: 20%;
   }
 
   .card-test {
@@ -608,13 +671,13 @@
 
   #contact {
     max-width: 10000px;
-    width: 900px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 0;
   }
 
   .contact-div {
-    width: 900px;
+    width: 90%;
     margin: auto;
 
     /* background-color: var(--primarycolor); */
@@ -626,7 +689,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1100px;
+    width: 90%;
     margin: auto;
     position: relative;
   }
@@ -635,7 +698,7 @@
     height: 423px;
     max-width: 10000px;
 
-    width: 1100px;
+    width: 90%;
     margin: auto;
     color: var(--primarycolor);
     display: flex;
@@ -647,31 +710,31 @@
   #About {
     height: fit-content;
     max-width: 10000px;
-    width: 1100px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 10%;
   }
 
   #skills {
     height: fit-content;
     max-width: 10000px;
-    width: 1100px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 10%;
   }
 
   #features {
-    margin-top: 70px;
-    width: 1100px;
+    margin-top: 7%;
+    width: 90%;
     margin: auto;
   }
 
   #projects {
     height: fit-content;
     max-width: 10000px;
-    width: 1100px;
+    width: 90%;
     margin: auto;
-    padding-top: 50px;
+    margin-top: 5%;
   }
 
   .card {
@@ -684,13 +747,13 @@
 
   #contact {
     max-width: 10000px;
-    width: 1100px;
+    width: 90%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 10%;
   }
 
   .contact-div {
-    width: 1100px;
+    width: 90%;
     margin: auto;
   }
 }
