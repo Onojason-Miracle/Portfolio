@@ -138,22 +138,8 @@
 
   .lang-heading {
     border: 1px solid white;
-    width: 100%;
-    margin: auto;
-
-    margin: auto;
-    padding-bottom: 0px;
-  }
-
-  .languages {
-    margin-bottom: 0px;
-    width: 50%;
-    margin: auto;
-  }
-
-  .lang-div p {
-    text-align: center;
-    padding-top: 10px;
+    width: 128px;
+    height: 25px;
   }
 
   .lang-div {
@@ -162,56 +148,24 @@
     height: 50px;
     border: 1px solid white;
     text-align: center;
-    padding-top: 0px;
     margin: auto;
   }
 
-  .mq-db {
-    width: 100%;
-    height: 21px;
-  }
-
-  .db {
-    width: 100%;
-    margin-left: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: var(--primarycolor);
-    margin-bottom: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .database {
-    width: 100%;
-    margin-bottom: 0px;
-    height: 95px;
-    border: none;
-  }
-
-  .sql {
-    padding-top: 10px;
-  }
-
   .db-heading {
-    width: 100%;
+    width: 128px;
+    height: 95px;
+    border: 1px solid white;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
   }
   .tools-heading-div p {
     padding-top: 15px;
   }
 
-  .tools-heading-div {
-    width: 150px;
-    height: 105px;
-    border: 1px solid white;
-    text-align: center;
-    margin: auto;
-  }
-
   .fm-heading-div {
-    width: 100%;
-    height: 105px;
+    width: 128px;
+    height: 95px;
     border: 1px solid white;
     text-align: center;
     margin: auto;
@@ -219,37 +173,9 @@
 
   .fm-heading {
     width: 100%;
-    height: 21px;
+    height: 25px;
     color: var(--primarycolor);
     border: 1px solid white;
-  }
-
-  .frameworks-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: var(--primarycolor);
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-
-  .frameworks {
-    margin-top: 0px;
-    width: 100%;
-  }
-
-  .others {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: var(--primarycolor);
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-left: 0;
-    width: 100%;
-    margin-top: 5px;
-    height: 100px;
   }
 
   /* ending of skills */
@@ -257,7 +183,7 @@
   /* beginning of unique featurs */
 
   #features {
-    padding-top: 50px;
+    padding-top: 12%;
     width: 90%;
     margin: auto;
   }
@@ -324,7 +250,7 @@
   }
 
   .card-test {
-    height: 65px;
+    height: 45px;
   }
 
   /* ending of projects */
@@ -376,7 +302,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 90%;
     margin: auto;
     position: relative;
   }
@@ -461,7 +387,7 @@
   }
 
   #features {
-    margin-top: 70px;
+    padding-top: 10%;
     width: 90%;
     margin: auto;
   }
@@ -532,13 +458,13 @@
   #projects {
     height: fit-content;
     max-width: 10000px;
-    width: 700px;
+    width: 90%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 5%;
   }
 
   .project-section {
-    margin-top: 5%;
+    padding-top: 5%;
     display: flex;
     flex-wrap: wrap;
     gap: 6%;
@@ -610,11 +536,10 @@
     width: 90%;
     margin: auto;
     margin-top: 10%;
-    margin-bottom: 8%;
   }
 
   #features {
-    margin-top: 150%;
+    padding-top: 10%;
     width: 90%;
     margin: auto;
     margin-bottom: 7%;
@@ -634,11 +559,11 @@
     max-width: 10000px;
     width: 90%;
     margin: auto;
-    margin-top: 10;
+    padding-top: 5%;
   }
 
   .project-section {
-    margin-top: 3%;
+    padding-top: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
@@ -697,7 +622,6 @@
   #landingpage {
     height: 423px;
     max-width: 10000px;
-
     width: 90%;
     margin: auto;
     color: var(--primarycolor);
@@ -724,7 +648,7 @@
   }
 
   #features {
-    margin-top: 7%;
+    margin-top: 70%;
     width: 90%;
     margin: auto;
   }
